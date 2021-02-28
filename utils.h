@@ -2,7 +2,7 @@
 
 namespace Utilites
 {
-    //usage Utilites::Print( 34, "bla", 15);
+    //Usage Utilites::Print( 34, "bla", 15);
     template <typename Arg, typename... Args>
     void Print( Arg&& arg, Args&&... args)
     {
